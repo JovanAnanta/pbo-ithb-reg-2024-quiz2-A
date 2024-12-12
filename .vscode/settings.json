@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Tempat Penyimpanan\\Downloads\\mysql-connector-java-8.0.20.jar",
+        "c:\\Tempat Penyimpanan\\Downloads\\jdatepicker-1.3.4 (1).jar"
+    ]
+}
