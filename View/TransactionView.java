@@ -20,7 +20,6 @@ public class TransactionView {
         frame.setLocationRelativeTo(null);
 
         JLabel headingLabel = new JLabel("Transaction History", JLabel.CENTER);
-        headingLabel.setFont(new Font("Arial", Font.BOLD, 16));
         frame.add(headingLabel, BorderLayout.NORTH);
 
         JPanel transactionPanel = new JPanel();
@@ -43,7 +42,6 @@ public class TransactionView {
 
         JPanel bottomPanel = new JPanel();
         JButton backButton = new JButton("Back to Book List");
-        backButton.setFont(new Font("Arial", Font.PLAIN, 14));
         bottomPanel.add(backButton);
 
         backButton.addActionListener(e -> {
